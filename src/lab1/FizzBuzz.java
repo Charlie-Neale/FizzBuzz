@@ -15,7 +15,7 @@ class FizzBuzz {
         }
     }
 
-    private static void do_fizz_buzz(int i) {
+    public static void do_fizz_buzz(int i) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
