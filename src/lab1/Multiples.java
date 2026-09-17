@@ -15,4 +15,7 @@ public class Multiples {
         }
         return dingus;
     }
+    public static int multiples() {
+        return multiples(1000,5,3);
+    }
 }
